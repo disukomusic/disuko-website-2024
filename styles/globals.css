@@ -100,6 +100,14 @@ a {
   text-decoration: none;
 }
 
+@font-face {
+  font-family: 'Keqima';
+  src: url('../fonts/Keqima.woff2') format('woff2'), url('../fonts/Keqima.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
